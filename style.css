@@ -4,7 +4,7 @@ body{
     font: size 30px;
     font-weight: normal;
     letter-spacing: 0.4cm;
-    font-style: italic;
+    font-style: Bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -12,4 +12,4 @@ h1{
     font-weight: lighter;
 }
 div.details{
-    color:palevioletred}
+    color: palevioletred}
