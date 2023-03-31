@@ -8,6 +8,8 @@ h2 {font-family: lores;
 font-size: 48;}
 h3 {font-family:bdretrocentric;
 font-size: 36;}
+h4{font-family: blob;}
+h5{font-family: giga;}
 
 @font-face {
     font-family: "old round";
@@ -16,11 +18,18 @@ font-size: 36;}
 @font-face {
     font-family: "lores";
     src: url("lores12ot-bold.woff");
-}
+} 
 @font-face {
     font-family:bdretrocentric;
     src: url("bdretrocentric.woff");
 }
-
+@font-face {
+    font-family:blobc;
+    src: url("BLOB-Regular.woff");
+}
+@font-face {
+    font-family:giga;
+    src: url("Giga.woff");
+}
 
 }
