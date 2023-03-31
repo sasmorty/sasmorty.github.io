@@ -1,11 +1,19 @@
 body{
-background-color: darksalmon;
-font-family: 'Courier New', Courier, monospace;
-}
-}
+    @font-face {
+        font-family: "narly";
+        src: url("narly regular.otf");
+    }
+    @font-face {
+        font-family: "lores";
+        src: url("lores12otbold.woff");
+    }
+background-color: black;
+color: white;
+font: size 36px;;
 @font-face {
-    font-family: "ocrb";
-    src: url("ocrb.woff");
+    font-family:bdretrocentric;
+    src: url(bdretrocentric.woff);
 }
-h1{font-family: "ocrb";
+
+
 }
