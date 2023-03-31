@@ -1,18 +1,22 @@
 body{
-    @font-face {
-        font-family: "narly";
-        src: url("narly regular.otf");
-    }
-    @font-face {
-        font-family: "lores";
-        src: url("lores12otbold.woff");
-    }
 background-color: black;
-color: white;
-font: size 36px;;
+color: white;}
+
+h1 { font-family:narly;}
+h2 {font-family: lores;}
+h3 {bdretrocentric}
+
+@font-face {
+    font-family: "narly";
+    src: url("narly regular.otf");
+}
+@font-face {
+    font-family: "lores";
+    src: url("lores12ot-bold.woff");
+}
 @font-face {
     font-family:bdretrocentric;
-    src: url(bdretrocentric.woff);
+    src: url("bdretrocentric.woff");
 }
 
 
