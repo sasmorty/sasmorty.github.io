@@ -2,7 +2,7 @@ body{
 background-color: black;
 color: white;}
 
-h1 { font-family:narly;
+h1 { font-family:old round;
 font-size: 200;}
 h2 {font-family: lores;
 font-size: 48;}
@@ -10,8 +10,8 @@ h3 {font-family:bdretrocentric;
 font-size: 36;}
 
 @font-face {
-    font-family: "narly";
-    src: url("Narly Regular.woff");
+    font-family: "old round";
+    src: url("OldRound-30-nonselect.woff");
 }
 @font-face {
     font-family: "lores";
