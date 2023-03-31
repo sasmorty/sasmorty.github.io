@@ -2,9 +2,12 @@ body{
 background-color: black;
 color: white;}
 
-h1 { font-family:narly;}
-h2 {font-family: lores;}
-h3 {bdretrocentric}
+h1 { font-family:narly;
+font-size: 130;}
+h2 {font-family: lores;
+font-size: 48;}
+h3 {font-family:bdretrocentric;
+font-size: 36;}
 
 @font-face {
     font-family: "narly";
