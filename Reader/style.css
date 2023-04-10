@@ -1,52 +1,52 @@
 body{
-background-color: black;
-}
-
-h1 { font-family:sim shade;
-font-size: 300;
-color: whitesmoke;}
-
-h2 {font-family: Sim Sunset;
-font-size: 50;
-color: tomato;}
-
-h3 {font-family:bdretrocentric;
-font-size: 12;
-color: white;
-letter-spacing: 2;
-text-decoration-color: aquamarine;}
-
-h4{font-family:Arial, Helvetica, sans-serif;
-    color: white;}
-
-h5{font-family: giga;
-    color: white;}
-
-    h6{font-family: Arial, Helvetica, sans-serif;}
-
-@font-face {
-    font-family: sim shade;
-    src: url("BBB_Simulator_Shade.otf");
-}
-@font-face {
-    font-family: narly;
-    src: url("Narly\ Regular.woff");
-} 
-@font-face {
-    font-family:bdretrocentric;
-    src: url("bdretrocentric.woff");
-}
-@font-face {
-    font-family:blob;
-    src: url("BLOB-Regular.woff");
-}
-@font-face {
-    font-family:giga;
-    src: url("Giga.woff");
-}
-{@font-face {
-    font-family: Sim Sunset;
-    src: url("BBB_Simulator_Sunset.otf");}
-}
+    background-color: black;
+    }
+    
+    h1 { font-family:sim shade;
+    font-size: 300;
+    color: whitesmoke;}
+    
+    h2 {font-family: Sim Sunset;
+    font-size: 50;
+    color: tomato;}
+    
+    h3 {font-family:bdretrocentric;
+    font-size: 12;
+    color: white;
+    letter-spacing: 2;
+    text-decoration-color: aquamarine;}
+    
+    h4{font-family:Arial, Helvetica, sans-serif;
+        color: white;}
+    
+    h5{font-family: giga;
+        color: white;}
+    
+        h6{font-family: Arial, Helvetica, sans-serif;}
+    
+    @font-face {
+        font-family: sim shade;
+        src: url("BBB_Simulator_Shade.otf");
+    }
+    @font-face {
+        font-family: narly;
+        src: url("Narly\ Regular.woff");
+    } 
+    @font-face {
+        font-family:bdretrocentric;
+        src: url("bdretrocentric.woff");
+    }
+    @font-face {
+        font-family:blob;
+        src: url("BLOB-Regular.woff");
+    }
+    @font-face {
+        font-family:giga;
+        src: url("Giga.woff");
+    }
+    {@font-face {
+        font-family: Sim Sunset;
+        src: url("BBB_Simulator_Sunset.otf");}
+    }
 
 
