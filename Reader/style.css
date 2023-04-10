@@ -2,11 +2,11 @@ body{
 background-color: black;
 }
 
-h1 { font-family:old round;
+h1 { font-family:sim shade;
 font-size: 300;
 color: whitesmoke;}
 
-h2 {font-family: giga;
+h2 {font-family: Sim Sunset;
 font-size: 48;
 color: tomato;}
 
@@ -25,11 +25,11 @@ h5{font-family: giga;
     h6{font-family: Arial, Helvetica, sans-serif;}
 
 @font-face {
-    font-family: "old round";
-    src: url("OldRound-30-nonselect.woff");
+    font-family: sim shade;
+    src: url("BBB_Simulator_Shade.otf");
 }
 @font-face {
-    font-family: "narly";
+    font-family: narly;
     src: url("Narly\ Regular.woff");
 } 
 @font-face {
@@ -43,6 +43,10 @@ h5{font-family: giga;
 @font-face {
     font-family:giga;
     src: url("Giga.woff");
+}
+{@font-face {
+    font-family: Sim Sunset;
+    src: url("BBB_Simulator_Sunset.otf");}
 }
 
 }
