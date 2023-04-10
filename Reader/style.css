@@ -3,7 +3,7 @@ background-color: black;
 }
 
 h1 { font-family:old round;
-font-size: 200;
+font-size: 250;
 color: whitesmoke;}
 
 h2 {font-family: giga;
@@ -12,7 +12,8 @@ color: tomato;}
 
 h3 {font-family:bdretrocentric;
 font-size: 36;
-color: white;}
+color: white;
+letter-spacing: 2;}
 
 h4{font-family:Arial, Helvetica, sans-serif;
     color: white;}
