@@ -6,7 +6,7 @@ body{
     font-size: 300;
     color: whitesmoke;}
     
-    h2 {font-family: Sim Sunset;
+    h2 {font-family: sim sunset;
     font-size: 50;
     color: tomato;}
     
@@ -45,8 +45,8 @@ body{
         src: url("Giga.woff");
     }
     {@font-face {
-        font-family: Sim Sunset;
-        src: url("BBB_Simulator_Sunset.otf");}
+        font-family: sim sunset;
+        src: url("BBB_Simulator_Sunset.otf")};
     }
 
 
