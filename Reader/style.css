@@ -18,9 +18,11 @@ body{
         color: white;}
     
     h5 { font-family:giga;
-        color: red;}
+        color: red;
+    text-align: center;}
     
-    h6 { font-family: Arial, Helvetica, sans-serif;}
+    h6 { font-family: Arial, Helvetica, sans-serif;
+    align-items: center;}
 
     h7 {font-family: narly;
     font-size: small;
