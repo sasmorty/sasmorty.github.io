@@ -3,27 +3,28 @@ body{
     }
     
     h1 { font-family:sim shade;
-    font-size: larger;
+    font-size: xx-large;
     color: whitesmoke;}
     
     h2 { font-family:sim sunset;
-    font-size: large;
+    font-size: x-large;
     color: red;}
     
     h3 { font-family:bdretrocentric;
-    font-size: 14px;
+    font-size: small;
     color: white;}
 
     h4 { font-family:bdretrocentric;
-        font-size: 14px;
+        font-size: small;
         color: white;}
 
         h5 { font-family:bdretrocentric;
-            font-size: 14px;
+            font-size: small;
             color: white;}
                                                         
     h6 { font-family:giga;
         color: red;
+        font-size: small;
     text-align: center;}
 
     h7 { font-family:narly;
