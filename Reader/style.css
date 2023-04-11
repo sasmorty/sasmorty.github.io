@@ -3,15 +3,15 @@ body{
     }
     
     h1 { font-family:sim shade;
-    font-size: x-large;
+    font-size:300px;
     color: whitesmoke;}
     
     h2 { font-family:sim sunset;
-    font-size: larger;
+    font: size 150px;;
     color: red;}
     
     h3 { font-family:bdretrocentric;
-    font-size: medium;
+    font-size: 14px;
     color: white;}
     
     h4 { font-family:Arial, Helvetica, sans-serif;
@@ -21,12 +21,8 @@ body{
     h5 { font-family:giga;
         color: red;
     text-align: center;}
-    
-    h6 { font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-font-size: smaller;}
 
-    h7 {font-family: narly;
+    h6 {font-family: narly;
     font-size: smaller;
 color: antiquewhite;}
     
