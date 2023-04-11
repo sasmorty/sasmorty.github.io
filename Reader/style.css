@@ -3,11 +3,11 @@ body{
     }
     
     h1 { font-family:sim shade;
-    font-size:300px;
+    font: size 200;;
     color: whitesmoke;}
     
     h2 { font-family:sim sunset;
-    font: size 150px;;
+    font: size 100;;
     color: red;}
     
     h3 { font-family:bdretrocentric;
@@ -16,7 +16,7 @@ body{
     
     h4 { font-family:Arial, Helvetica, sans-serif;
         color: white;
-    font-size: small;}
+    font-size: 12px;}
     
     h5 { font-family:giga;
         color: red;
