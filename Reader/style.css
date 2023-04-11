@@ -11,21 +11,19 @@ body{
     color: tomato;}
     
     h3 { font-family:bdretrocentric;
-    font-size: 12;
-    color: white;
-    letter-spacing: 2;
-    text-decoration-color: aquamarine;}
+    font-size: 10;
+    color: white;}
     
     h4 { font-family:Arial, Helvetica, sans-serif;
         color: white;}
     
-    h5 { font-family: giga;
-        color: white;}
+    h5 { font-family:giga;
+        color: red;}
     
     h6 { font-family: Arial, Helvetica, sans-serif;}
     
     @font-face {
-        font-family: sim shade;
+        font-family:sim shade;
         src: url("BBB_Simulator_Shade.otf");
     }
     @font-face {
@@ -44,9 +42,11 @@ body{
         font-family:giga;
         src: url("Giga.woff");
     }
-    {@font-face {
-        font-family: sim sunset;
-        src: url("BBB_Simulator_Sunset.otf")};
+    @font-face {
+        font-family:sim sunset;
+        src: url("BBB_Simulator_Sunset.otf");
     }
+
+    
 
 
