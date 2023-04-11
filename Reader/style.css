@@ -17,7 +17,7 @@ body{
     h4 { font-family:bdretrocentric;
         font-size: 14px;
         color: white;}
-        
+
         h5 { font-family:bdretrocentric;
             font-size: 14px;
             color: white;}
@@ -30,9 +30,10 @@ body{
         color: red;
     text-align: center;}
 
-    h8 { font-family: narly;
+    h8 { font-family:narly;
     font-size: smaller;
-color: antiquewhite;}
+color: antiquewhite;
+text-align: center;}
     
     @font-face {
         font-family:sim shade;
