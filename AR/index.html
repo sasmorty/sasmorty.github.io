@@ -16,7 +16,7 @@
       </a-assets>
 
       <a-light type="ambient" color="#888"></a-light>
-      <a-light type="point" intensity="0.3" position="2 4 4"></a-light>
+      <a-light type="point" intensity="0.2" position="3 5 5"></a-light>
 
       <!-- DONT EDIT ABOVE
                 o   o
@@ -53,15 +53,23 @@
         position= "0 0.5 0"
         src="eye.jpeg"
         env-map="#env"
-        metalness="0.9"
+        metalness="0"
         roughness="0.1"                  
         animation="
-         property: rotation; 
-         from: 0 0 0; 
-         to: 0 360 0; 
-         easing: linear; 
-         dur: 10000; 
-         loop:true"
+           property: rotation; 
+           from: 0 0 0; 
+           to: 0 360 0; 
+           easing: linear; 
+           dur: 2000; 
+           loop:true"
+          animation__2="
+           property: position; 
+           from: 0 0.5 -0; 
+           to: 1 2 -3; 
+           dir: alternate;
+           easing: linear; 
+           dur: 5000; 
+           loop:true"
           >                  
         </a-sphere>
 
@@ -80,15 +88,23 @@
           position= "0 0.5 0"
           src="eye.jpeg"
           env-map="#env"
-          metalness="0.9"
+          metalness="0"
           roughness="0.1"                  
           animation="
-           property: rotation; 
-           from: 0 0 0; 
-           to: 0 360 0; 
-           easing: linear; 
-           dur: 10000; 
-           loop:true"
+          property: rotation; 
+          from: 0 0 0; 
+          to: 0 360 0; 
+          easing: linear; 
+          dur: 2000; 
+          loop:true"
+         animation__2="
+          property: position; 
+          from: 0 0.5 -0; 
+          to: 1 2 -3; 
+          dir: alternate;
+          easing: linear; 
+          dur: 5000; 
+          loop:true"
             >                  
           </a-sphere>
 
