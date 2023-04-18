@@ -43,10 +43,11 @@
 
      <!-- !!! Only 1 Marker but lots of assets inside it !!! -->
 
-      <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
+      <a-marker type='pattern' url='pattern-marker-circle.patt' smooth="true">
 
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
+
           <a-sphere
           radius="1"
           position= "0 0.5 0"
@@ -56,8 +57,8 @@
           roughness="0.1"                  
           animation="
              property: rotation; 
-             from: 0 -90 0; 
-             to: 0 90 0; 
+             from: 0 0 0; 
+             to: 0 360 0; 
              easing: linear; 
              dur: 2000; 
              loop:true"
@@ -81,8 +82,8 @@
           roughness="0.1"                  
           animation="
              property: rotation; 
-             from: 0 -90 0; 
-             to: 0 90 0; 
+             from: 0 -0 0; 
+             to: 0 360 0; 
              easing: linear; 
              dur: 2000; 
              loop:true"
