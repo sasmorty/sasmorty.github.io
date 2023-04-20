@@ -41,78 +41,68 @@
       https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
      -->
 
-     <!-- !!! MARKER 1 !!! -->
+     <!-- !!! Only 1 Marker but lots of assets inside it !!! -->
 
       <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
 
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        <a-sphere
-        radius="1"
-        position= "0 0.5 0"
-        src="old.jpeg"
-        env-map="#env"
-        metalness="0"
-        roughness="0.1"                  
-        animation="
-           property: rotation; 
-           from: 0 0 0; 
-           to: 0 360 0; 
-           easing: linear; 
-           dur: 2000; 
-           loop:true"
-          animation__2="
-           property: position; 
-           from: 0 0.5 0; 
-           to: 0 0.5 0; 
-           dir: alternate;
-           easing: linear; 
-           dur: 5000; 
-           loop:true"
-          >                  
-        </a-sphere>
-
-
-      </a-marker>
-      
-      <!-- !!! MARKER 2 !!! -->
-
-      <a-marker type='pattern' url='pattern-marker4563.patt' smooth="true">
-
-        <!-- This is the object <a-object> 
-          Edit size, position, texture and animation here -->
-
           <a-sphere
           radius="1"
-          position= "0 0.5 0"
-          src="old.jpeg"
+          position= "0 0.2 0"
+          src="eye.jpeg"
           env-map="#env"
           metalness="0"
           roughness="0.1"                  
           animation="
-          property: rotation; 
-          from: 0 0 0; 
-          to: 0 360 0; 
-          easing: linear; 
-          dur: 2000; 
-          loop:true"
-         animation__2="
-          property: position; 
-          from: 0 0.5 0; 
-          to: 0 0.5 0; 
-          dir: alternate;
-          easing: linear; 
-          dur: 5000; 
-          loop:true"
+             property: rotation; 
+             from: 0 0 0; 
+             to: 0 360 0; 
+             easing: linear; 
+             dur: 2000; 
+             loop:true"
+            animation__2="
+             property: position; 
+             from: 0 0.5 0; 
+             to: 0 0.5 0; 
+             dir: alternate;
+             easing: linear; 
+             dur: 5000; 
+             loop:true"
             >                  
           </a-sphere>
+          
+          <a-sphere
+          radius="1"
+          position= "-3 0.2 0"
+          src="eye.jpeg"
+          env-map="#env"
+          metalness="0"
+          roughness="0.1"                  
+          animation="
+             property: rotation; 
+             from: 0 0 0; 
+             to: 0 360 0; 
+             easing: linear; 
+             dur: 2000; 
+             loop:true"
+            animation__2="
+             property: position; 
+             from: 0 0.5 0; 
+             to: 0 0.5 0; 
+             dir: alternate;
+             easing: linear; 
+             dur: 5000; 
+             loop:true"
+            >                  
+          </a-sphere>
+      </a-marker>    
 
+     
 
-      </a-marker>   
 
       <a-entity camera></a-entity>
     </a-scene>
-
   </body>
 </html>
