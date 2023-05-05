@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  background-color:blueviolet;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+  }
+  
+  /* Parents have to have these, but you can add additional properties to change the alignment and layout of the children */
+  
+  div.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* These are all the children, it's where you add the widths */
+  
+  div.item {
+    font-size: 200px;
+    padding: 28px;
+    font-family: arial;
+    width: 25%;
+    border: 1px solid green;
+    animation: backgroundcolor 3s infinite ease-in-out;
+  transition: opacity 1s; }
+    
+    
+  
+  /* You can change the width of one child specifically by adding another class name and then chaining the classes together. */
+  
+  div.item.text {
+    font-family:sim shade;
+    font-size: 45px;
+    color: green;
+    width: 25%;
+    animation: backgroundcolor 3s infinite ease-in-out; }
+  
+div.item:hover {opacity:50%;}
+
+    @keyframes backgroundcolor {
+      0% {background: linear-gradient(to right, greenyellow, chartreuse, lawngreen);}
+      100% {background: linear-gradient(to right, chartreuse, greenyellow);}
+    }
+  
+    @font-face {
+      font-family:sim shade;
+      src: url("BBB_Simulator_Shade.otf");
+  }
+  @font-face {
+      font-family: narly;
+      src: url("Narly\ Regular.woff");
+  } 
+  @font-face {
+      font-family:bdretrocentric;
+      src: url("bdretrocentric.woff");
+  }
+  @font-face {
+      font-family:blob;
+      src: url("BLOB-Regular.woff");
+  }
+  @font-face {
+      font-family:giga;
+      src: url("Giga.woff");
+  }
+  @font-face {
+      font-family:sim sunset;
+      src: url("BBB_Simulator_Sunset.otf");
+  }
