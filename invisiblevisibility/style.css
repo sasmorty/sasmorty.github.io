@@ -22,13 +22,14 @@ body {
   /* These are all the children, it's where you add the widths */
   
   div.item {
-    font-size: 200px;
+    font-size: 10px;
     padding: 28px;
     font-family: arial;
     width: 25%;
     border: 1px solid green;
     animation: backgroundcolor 3s infinite ease-in-out;
-  transition: opacity 1s; }
+  transition: opacity 1s;
+font-family: bbb; }
     
     
   
@@ -53,8 +54,8 @@ div.item:hover {opacity:50%;}
       src: url("BBB_Simulator_Shade.otf");
   }
   @font-face {
-      font-family: narly;
-      src: url("Narly\ Regular.woff");
+      font-family: bbb;
+      src: url("BBB Strobo-VariableGX.woff");
   } 
   @font-face {
       font-family:bdretrocentric;
