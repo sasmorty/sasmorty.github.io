@@ -75,8 +75,9 @@ div.item:hover {opacity:50%;}
   }
   
   video.webcam {
-    width:12.5%;
+    width: 25%;
     height:100vh;
     object-fit:cover;
     border: 1px solid green;
+    padding: 28px;
   }
