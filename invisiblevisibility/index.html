@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Face is Not Your Own Archive</title> 
-    <link rel="stylesheet" href="style.css">
+    <title>Your Face is Not Your Own Archive
+    </title> 
+    <audio controls>
+      <source src="MeydänElk.mp3" type="audio/mpeg">
+    </audio>
+    <link rel="stylesheet" href="style.css">  
+    <script> 
+    window.onload = function () {
+  //add constraints object
+  var constraints = { audio: true, video: true };
+
+  //call getUserMedia, then the magic
+  navigator.mediaDevices
+    .getUserMedia(constraints)
+    .then(function (mediaStream) {
+      var video = document.querySelector("video");
+      video.srcObject = mediaStream;
+      video.play();
+    })
+    .catch(function (err) {});
+};
+    </script>
+
 </head>
 <body>
     <div class="container">
 
       <div class="item text">
         Your Face is Not Your Own Archive
+
       </div>
 
       <div class="item">
@@ -228,6 +250,10 @@
         <img src="13.png" alt="13">
         43
       </div>
+      
+      <div>
+      <video class="webcam"></video>
+      </div> 
       
     </div>
 </body>
