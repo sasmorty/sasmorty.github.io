@@ -75,13 +75,8 @@ div.item:hover {opacity:50%;}
   }
   
   video.webcam {
-    width: 56.5%;
-    height:60vh;
+    width: 100%;
+    height:52vh;
     object-fit:cover;
-    border: 1px solid green;
-    padding: 28px;
-    animation: backgroundcolor 3s infinite ease-in-out;
-  transition: opacity 1s;
-font-family: bbb;
-font-size: 10px;
+    
   }
