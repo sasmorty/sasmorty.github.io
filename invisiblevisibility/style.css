@@ -73,3 +73,10 @@ div.item:hover {opacity:50%;}
       font-family:sim sunset;
       src: url("BBB_Simulator_Sunset.otf");
   }
+  
+  video.webcam {
+    width:12.5%;
+    height:100vh;
+    object-fit:cover;
+    border: 1px solid green;
+  }
