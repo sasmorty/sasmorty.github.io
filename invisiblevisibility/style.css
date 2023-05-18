@@ -80,3 +80,9 @@ div.item:hover {opacity:50%;}
     object-fit:cover;
     
   }
+  
+  div.banner {
+    font-size:36px;
+    background-color: greenyellow;
+    margin-bottom:100px;
+  }
