@@ -115,6 +115,7 @@ font-family: bbb;
     font-size:36px;
     background-color: black;
     margin-bottom:0px;
+    animation:infinite
   }
 
   audio::-webkit-media-controls-play-button,
