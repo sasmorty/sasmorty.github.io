@@ -37,7 +37,7 @@ font-family: bbb; }
   
   div.item.text {
     font-family:sim shade;
-    font-size: 45px;
+    font-size: 65px;
     color: green;
     width: 25%;
     animation: backgroundcolor 3s infinite ease-in-out; }
@@ -78,11 +78,38 @@ div.item:hover {opacity:50%;}
     width: 100%;
     height:52vh;
     object-fit:cover;
-    
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 10%
   }
-  
+
+  .relative {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    opacity: 10%
+  }
+  .absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 10%
+  }
+
   div.banner {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lawngreen;
     font-size:36px;
-    background-color: greenyellow;
-    margin-bottom:100px;
+    background-color: black;
+    margin-bottom:0px;
   }
+
+  audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color:lawngreen;
+  color: lawngreen;
+}
+

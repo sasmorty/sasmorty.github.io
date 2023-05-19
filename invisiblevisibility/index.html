@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <div class="banner">
-      <marquee>Faces are as unique as a fingerprint. A quiet revolution has been afoot to unlock the secrets of our faceprints. It has been powered by an enormous influx of A.I. expertise into Silicon Valley in recent decades, much of it drawn out of the computer-science departments of elite universities. The ethical and legal future of privacy is open. The more faces the facial recognition technology detects, the better it gets. There is invisible visibility as the technology uses billions of photos from the public internet. Companies can track us as pervasively in the real world as they already do online. Your face is not your own.</marquee>
+      <marquee> Faces are as unique as a fingerprint. A quiet revolution has been afoot to unlock the secrets of our faceprints. It has been powered by an enormous influx of A.I. expertise into Silicon Valley in recent decades, much of it drawn out of the computer-science departments of elite universities. The ethical and legal future of privacy is open. The more faces the facial recognition technology detects, the better it gets. There is invisible visibility as the technology uses billions of photos from the public internet. Companies can track us as pervasively in the real world as they already do online. Your face is not your own.</marquee>
     </div>
 
     <title>Your Face is Not Your Own Archive
     </title> 
-    <audio controls>
-      <source src="MeydänElk.mp3" type="audio/mpeg">
-    </audio>
+
     <link rel="stylesheet" href="style.css">  
     <script> 
     window.onload = function () {
   //add constraints object
-  var constraints = { audio: true, video: true };
+  var constraints = { audio: false, video: true };
 
   //call getUserMedia, then the magic
   navigator.mediaDevices
@@ -106,10 +104,11 @@
         13
       </div>
 
-      <div class="item">
-          <video class="webcam"></video>
-        14
-      </div>
+      <div class="item rel">
+        <img src="overweb.png" alt="over">
+        <video class="webcam"></video>
+             14
+     </div>     
 
       <div class="item">
         <img src="15.png" alt="15">
@@ -257,9 +256,13 @@
       </div>
       
       <div class="banner">
-        <marquee direction="left">Website designed by Saskia Mortarotti. Monash Art, Design & Architecture. Concept inspired by Kashmir Hill. </marquee>
+        <marquee direction="left"><audio controls>
+          <source src="MeydänElk.mp3" type="audio/mpeg">
+        </audio>                      Website designed by Saskia Mortarotti. Monash Art, Design & Architecture. Concept inspired by Kashmir Hill.  </marquee>
       </div>
-      
+
+ 
+
     </div>
 </body>
 </html>
